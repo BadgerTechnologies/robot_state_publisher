@@ -73,6 +73,7 @@ public:
 
 private:
   std::string getTFPrefix();
+  std::string tf_prefix_;
 
 protected:
   virtual void callbackJointState(const JointStateConstPtr& state);
